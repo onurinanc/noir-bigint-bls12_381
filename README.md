@@ -1,4 +1,5 @@
-# Noir BigInt
+# Copy of Noir BigInt Library -> Specific Usage for BLS12_381 prime
+Note: This library is copied from https://github.com/shuklaayush/noir-bigint, and prime_field is changed to be specifically used for BLS12_381 prime field
 
 [![CI][ci-shield]][ci-url]
 [![MIT License][license-shield]][license-url]
@@ -18,7 +19,7 @@ In your `Nargo.toml` file, add the following dependency:
 
 ```toml
 [dependencies]
-noir_bigint = { tag = "v0.0.1", git = "https://github.com/shuklaayush/noir-bigint" }
+noir_bigint = { tag = "v0.0.1", git = "https://github.com/onurinanc/noir-bigint-bls12_381" }
 ```
 
 ## Testing
